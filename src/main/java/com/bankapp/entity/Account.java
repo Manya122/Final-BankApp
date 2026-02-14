@@ -37,5 +37,5 @@ public class Account extends BaseAuditEntity {
     private BigDecimal balance;
 
     @Version
-    private Long version; // optimistic locking
+    private Long version; 
 }
